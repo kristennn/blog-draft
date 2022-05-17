@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: Xiaofei
+subtitle: 'a'
+description: 'b'
+keywords: 'cc'
+author: Xiaofei
+language: zh
 timezone: ''
 
 # URL
@@ -41,7 +41,10 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
 highlight:
@@ -99,7 +102,22 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: cactus
+theme_config:
+  colorscheme: white
 
+nav:
+  home: /
+  about: /about/
+  articles: /archives/
+  projects: http://github.com/probberechts
+  LINK_NAME: URL
+  tag: /tags/
+  category: /categories/
+
+social_links:
+  github: your-github-url
+  twitter: your-twitter-url
+  NAME: your-NAME-url
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
