@@ -109,15 +109,14 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/probberechts
+  projects: http://github.com/kristennn
   LINK_NAME: URL
   tag: /tags/
   category: /categories/
 
 social_links:
-  github: your-github-url
-  twitter: your-twitter-url
-  NAME: your-NAME-url
+  github: http://github.com/kristennn
+  掘金: https://juejin.cn/user/888061127040823
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
